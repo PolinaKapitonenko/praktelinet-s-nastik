@@ -24,3 +24,9 @@ while True:
         tõlgi_sona(text,"et")
         ind=int(input("Number:"))
         tõlgi_sona(laused[ind],"et")
+
+    elif v==4:
+        est=["koer,kass,maja,auto,puu,raamat,inimene,laud,aken,päev"]
+        rus=["собака,кошка,дом,машина,дерево,книга,человек,стол,окно,день"]
+        hinne=Teadmiste_kontroll(rus,est)
+        print(hinne)
